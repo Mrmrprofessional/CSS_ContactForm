@@ -1,0 +1,123 @@
+body {
+  background: url('../images/aurora.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  font-family: 'Exo', sans-serif;
+}
+
+form {
+  position: relative;
+  top: 25vh;
+  color: #FFF;
+  width: 700px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: rgba(108,123,139,.5);
+  box-shadow: inset 0 0 50px #ffffff;
+}
+
+#from {
+  position: absolute;
+  left: 2em;
+  top: 3em;
+  font-style: italic;
+}
+
+#reply {
+  position: absolute;
+  left: 2em;
+  top: 6em;
+  margin-top: 6em;
+  font-style: italic;
+}
+
+#subject {
+  position: absolute;
+  left: 2em;
+  top: 9em;
+  margin-top: 12em;
+  font-style: italic;
+
+}
+
+#message {
+  position: absolute;
+  left: 40%;
+  top: 3em;
+  font-style: italic;
+
+}
+
+textarea {
+  display: block;
+  width: 340px;
+  height: 315px;
+  resize: none;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,.8);
+  font-size:.9em;
+  font-family:"exo", sans-serif;
+  border:none;
+
+
+}
+
+input {
+  width: 13em;
+  display: block;
+  border-radius: 10px;
+  height: 2em;
+  background-color: rgba(255,255,255,.8);
+  font-family:"exo", sans-serif;
+  font-size:.9em;
+
+}
+
+select{
+  width: 193.188px;
+  display: block;
+  border-radius: 10px;
+  height: 2em;
+  background-color: rgba(255,255,255,.8);
+  font-family:"exo", sans-serif;
+  font-size:.9em;
+
+
+}
+
+button {
+  position: absolute;
+  bottom: 2em;
+  left: 300px;
+  font-family:"exo", sans-serif;
+  font-size:.9em;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,.8);
+  width:100px;
+  border:none;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+  opacity: 0.5;
+}
+
+option {
+  background-color: rgba(255,255,255,.7);
+  font-family:"exo", sans-serif;
+
+}
+
+#blur {
+  position: absolute;
+  left: 2em;
+  top: -1em;
+}

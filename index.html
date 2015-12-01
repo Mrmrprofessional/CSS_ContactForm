@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Exo:400,500,600,600italic,700,700italic,800,400italic,500italic,800italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div id="formback"></div>
+      <form>
+        <div id="blur"><h1>Contact</h1></div>
+        <div id="from">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+
+        <div id="reply">
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email">
+        </div>
+
+        <div id="subject">
+          <label for="subject">Subject:</label>
+          <select>
+            <option value="Questions">Questions</option>
+            <option value="Suggestions">Suggestions</option>
+            <option value="Praise">Praise</option>
+            <option value="Drugs">Drugs</options>
+          </select>
+        </div>
+
+        <div id="message">
+          <label for="msg">Your message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+
+        <div class="fade">
+          <button type="submit">Hit us up!</button>
+        </div>
+      </form>
+  </body>
+</html>
